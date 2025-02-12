@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "545468650872",
+    "project_id": "lab-work-bf4c6",
+    "storage_bucket": "lab-work-bf4c6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545468650872:android:b52637a91160bb8853e48d",
+        "android_client_info": {
+          "package_name": "com.example.flutter_lab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj35RDW8rwom7qh_b-kyX1fAwe0dPDpEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
