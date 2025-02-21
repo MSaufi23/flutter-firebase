@@ -21,7 +21,7 @@ class _SignUpPageState extends State<SignUpPage> {
   Future<void> _handleSignUp() async {
     if (_formKey.currentState!.validate()) {
       try {
-        final path = 'users/${_userType}s'; // Path will be users/students or users/staff
+        final path = _userType == 'student' ? 'users/students' : 'users/staff'; // Remove 's' from staff
         final fieldName = _userType == 'student' ? 'studID' : 'email';
         final value = _idEmailController.text;
 
